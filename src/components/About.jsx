@@ -136,7 +136,7 @@ export default function About() {
                     className="w-full h-full object-cover object-top group-hover:scale-[1.03] transition-transform duration-700"
                   />
                   {/* Subtle overlay gradient */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-bg-primary/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
+                  <div className="absolute inset-0 bg-linear-to-t from-bg-primary/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 pointer-events-none" />
                 </div>
                 <h4 className="font-playfair text-lg text-bg-primary font-medium tracking-tight">{member.name}</h4>
                 <p className="font-manrope text-xs text-bg-primary/60 tracking-wider mt-0.5 uppercase font-light">{member.role}</p>

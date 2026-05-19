@@ -110,7 +110,7 @@ export default function Hero() {
         <span>Curators of luxury experiences</span>
         <button
           onClick={() => scrollTo('#about')}
-          className="flex items-center gap-2 hover:text-white transition-colors group focus:outline-none"
+          className="flex flex-col items-center gap-2 hover:text-white transition-colors group focus:outline-none"
         >
           <span>Scroll to explore</span>
           <ArrowDown size={12} className="group-hover:translate-y-1 transition-transform" />
