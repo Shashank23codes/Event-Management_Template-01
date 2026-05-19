@@ -14,7 +14,7 @@ const projects = [
     result: 'Featured in Vogue India & Condé Nast Traveller',
     review: '"Trends Management transformed our wedding into a fairy tale we never imagined possible. Every detail was perfection."',
     reviewer: 'Priya & Arjun Mehra',
-    image: '/luxury_wedding.png'
+    image: `${import.meta.env.BASE_URL}luxury_wedding.png`
   },
   {
     id: 2,
@@ -27,7 +27,7 @@ const projects = [
     result: '98% attendee satisfaction score — highest in company history',
     review: '"The level of professionalism and creativity was extraordinary. Our brand has never been presented more beautifully."',
     reviewer: 'CEO, TechVision India',
-    image: '/luxury_corporate.png'
+    image: `${import.meta.env.BASE_URL}luxury_corporate.png`
   },
   {
     id: 3,
@@ -40,7 +40,7 @@ const projects = [
     result: 'An intimate masterpiece that went viral on social media',
     review: '"The way they captured the essence of our love story was breathtaking. Pure magic from start to finish."',
     reviewer: 'Neha & Rohan Kapoor',
-    image: '/luxury_engagement.png'
+    image: `${import.meta.env.BASE_URL}luxury_engagement.png`
   },
 ]
 

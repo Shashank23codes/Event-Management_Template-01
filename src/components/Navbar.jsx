@@ -47,7 +47,7 @@ export default function Navbar() {
             className="flex items-center"
           >
             <img
-              src="/tm logo.png"
+              src={`${import.meta.env.BASE_URL}tm logo.png`}
               alt="Trends Management"
               className={`w-auto object-contain brightness-110 transition-all duration-300 ${
                 scrolled ? 'h-6' : 'h-10'
@@ -99,7 +99,7 @@ export default function Navbar() {
             className="fixed inset-0 z-40 bg-bg-primary flex flex-col justify-between p-8"
           >
             <div className="flex justify-between items-center mt-2">
-              <img src="/tm logo.png" alt="Trends Logo" className="h-6 w-auto" />
+              <img src={`${import.meta.env.BASE_URL}tm logo.png`} alt="Trends Logo" className="h-6 w-auto" />
               <button onClick={() => setMenuOpen(false)} className="text-white">
                 <X size={20} />
               </button>

@@ -38,7 +38,7 @@ export default function Hero() {
           className="hidden xl:block absolute -left-48 top-1/2 -translate-y-1/2 w-48 h-64 rounded-4xl border border-white/10 overflow-hidden shadow-2xl grayscale hover:grayscale-0 hover:rotate-0 transition-all duration-500"
         >
           <img
-            src="/luxury_decor_1779184615426.png"
+            src={`${import.meta.env.BASE_URL}luxury_decor_1779184615426.png`}
             alt="Luxury Decor Detail"
             className="w-full h-full object-cover"
           />
@@ -52,7 +52,7 @@ export default function Hero() {
           className="hidden xl:block absolute -right-52 top-1/3 -translate-y-1/2 w-52 h-72 rounded-4xl border border-white/10 overflow-hidden shadow-2xl grayscale hover:grayscale-0 hover:rotate-0 transition-all duration-500"
         >
           <img
-            src="/luxury_wedding_1779184533284.png"
+            src={`${import.meta.env.BASE_URL}luxury_wedding_1779184533284.png`}
             alt="Luxury Wedding Setup"
             className="w-full h-full object-cover"
           />

@@ -25,7 +25,7 @@ export default function Footer() {
           {/* Brand Info & Details */}
           <div className="lg:col-span-5 flex flex-col justify-between">
             <div>
-              <img src="/tm logo.png" alt="Trends Logo" className="h-6 w-auto mb-8" />
+              <img src={`${import.meta.env.BASE_URL}tm logo.png`} alt="Trends Logo" className="h-6 w-auto mb-8" />
               <span className="font-manrope text-[10px] tracking-[0.4em] uppercase text-gold block mb-4">
                 Inquire Now
               </span>

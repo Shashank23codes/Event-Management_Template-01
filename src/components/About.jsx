@@ -45,7 +45,7 @@ export default function About() {
           <div className="lg:col-span-6 relative flex justify-end">
             <div className="relative w-full max-w-sm aspect-3/4 overflow-hidden rounded-4xl border border-bg-primary/10 shadow-2xl rotate-2 hover:rotate-0 transition-all duration-500 grayscale hover:grayscale-0">
               <img
-                src="/teams-img/owner.jpeg"
+                src={`${import.meta.env.BASE_URL}teams-img/owner.jpeg`}
                 alt="Founder of Trends Management"
                 className="w-full h-full object-cover object-top"
               />
@@ -73,11 +73,11 @@ export default function About() {
 
           <div className="grid grid-cols-2 md:grid-cols-5 gap-6">
             {[
-              { src: '/teams-img/owner.jpeg', name: 'Founder & CEO', role: 'Creative Director' },
-              { src: '/teams-img/2.jpeg', name: 'Team Lead', role: 'Event Architect' },
-              { src: '/teams-img/4.jpeg', name: 'Design Head', role: 'Visual Lead' },
-              { src: '/teams-img/6.jpeg', name: 'Production Lead', role: 'Logistics' },
-              { src: '/teams-img/8.jpeg', name: 'Relations Manager', role: 'Experiences' },
+              { src: `${import.meta.env.BASE_URL}teams-img/owner.jpeg`, name: 'Founder & CEO', role: 'Creative Director' },
+              { src: `${import.meta.env.BASE_URL}teams-img/2.jpeg`, name: 'Team Lead', role: 'Event Architect' },
+              { src: `${import.meta.env.BASE_URL}teams-img/4.jpeg`, name: 'Design Head', role: 'Visual Lead' },
+              { src: `${import.meta.env.BASE_URL}teams-img/6.jpeg`, name: 'Production Lead', role: 'Logistics' },
+              { src: `${import.meta.env.BASE_URL}teams-img/8.jpeg`, name: 'Relations Manager', role: 'Experiences' },
             ].map((member, i) => (
               <motion.div
                 key={i}
