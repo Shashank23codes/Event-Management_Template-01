@@ -2,7 +2,7 @@
 
 A premium, production-grade event curation landing page designed for discerning clients globally. Featuring an elegant editorial magazine layout, smooth inertia-scrolling, tactile paper-matte grain textures, and interactive responsive animations.
 
-Designed & Developed with 🖤 by **[CodeCloverStudio](https://codeclover.in)**.
+Designed & Developed with 🖤 by **[CodeCloverStudio](https://codecloverstudio.netlify.app/)**.
 
 ---
 
